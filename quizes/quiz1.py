@@ -1,15 +1,18 @@
-1. In your on words, describe what a variable is.
-
+1. In your on words, describe what a variable is.In my own words a varible isa name that 
+has to start with a letter or underscore if its a number or anything else its wrong
 # 2. Name three (3) operators we've learned about in class and describe 
-# a situation where you would use each one. 
+# a situation where you would use each one. 3 operators are Comparison,Logical,and Assignment operators
+For comparison operator we can assert whether two values or expressions are equal.For Logical operators
+I am a basketball player which is true .I am not smart which is false.
+For assignments A = 5; // use Assignment symbol to assign 5 to the operand A
 
 # 3. Describe the difference between camal case and pascal case.
-
+The only difference between the two is that pascal case requires the first letter of the first word to also be capitalized.
 # 4. Which operator is being used in the example below
 numberOfApples = 10
 numberOfOranges = 12
 
-numberOfApples < numberOfOranges
+numberOfApples < numberOfOranges =22 The operator being used is  comparison operator.
 
 # 5. You have been given a $100.00 dollar gift card from a family member. Another 
 # family member adds 50.00 dollars to your gift card and a friend gives you $35.50. 
