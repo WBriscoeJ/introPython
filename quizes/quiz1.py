@@ -7,7 +7,7 @@ I am a basketball player which is true .I am not smart which is false.
 For assignments A = 5; // use Assignment symbol to assign 5 to the operand A
 
 # 3. Describe the difference between camal case and pascal case.
-The only difference between the two is that pascal case requires the first letter of the first word to also be capitalized.
+pascal case requires the first letter of the first word to also be capitalized.
 # 4. Which operator is being used in the example below
 numberOfApples = 10
 numberOfOranges = 12
@@ -17,10 +17,14 @@ numberOfApples < numberOfOranges =22 The operator being used is  comparison oper
 # 5. You have been given a $100.00 dollar gift card from a family member. Another 
 # family member adds 50.00 dollars to your gift card and a friend gives you $35.50. 
 # Your task is to create variables for each gift amount and a final variable that
-# represents the total amount of money on your gift card. 
-
+# represents the total amount of money on your gift card.  familyMemberGivesGiftCard=$100.00  
+familymembergivesgiftcard=100
+anotherFamilymemberGivesGiftCard=$50.00
+friendGivesGiftCard=$35.50
+chang
+familyMemberGivesGiftGard<anotherFamilymemberGivesGiftCard<friendGivesGiftCard=$185.5
 # 6. Create a variable that uses the input function and then print that variable. Your variable 
-# should ask a user to enter their name.  
+# should ask a user to enter their name.nameofbasketballteam  
 
 # 7. You have been asked to create a program for a community center that wants to plan a cookout. 
 # The community center wants you to build a form program and capture several key data points. 
