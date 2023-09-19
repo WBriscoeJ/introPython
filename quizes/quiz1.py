@@ -22,7 +22,7 @@ familymembergivesgiftcard=100
 anotherFamilymemberGivesGiftCard=$50.00
 friendGivesGiftCard=$35.50
 
-familyMemberGivesGiftGard < anotherFamilymemberGivesGiftCard < friendGivesGiftCard=$185.5
+familyMemberGivesGiftGard < anotherFamilymemberGivesGiftCard < friendGivesGiftCard=$185.00
 
 # 6. Create a variable that uses the input function and then print that variable. Your variable 
 # should ask a user to enter their name.nameofbasketballteam() 
