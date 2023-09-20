@@ -1,3 +1,2 @@
 name='Wade Briscoe'
-
-type(name)
+print(type(name))
