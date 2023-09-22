@@ -1,11 +1,13 @@
 
-# 1. In your own words, describe what a function is
+# 1. In your own words, describe what a function is  something that runs when it called 
 
-# 2. What is are function parameters and arguments and describe
-# the difference between the 2. 
+# 2. What  are function parameters and arguments and describe
+# the difference between the 2. Parameter is a placeholder and argument is when you make an argument 
+ you need to  bring facts=actual facts.The different is parameters are values and argument is actual data.
 
 # 3. write a function that will print out a welcome message
 # that includes a users name. You will need to use parameters and arguments
+def welcome_Msg(username)
 
 # 4. Write a function that will do a calculation that takes 3 parameters.
 # Your function can do any of the arithmatic operators (add, subtract, multiply, divide)
