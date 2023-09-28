@@ -1,0 +1,16 @@
+# write a function that will accept a user's password .The password should be a string parameter.
+# If the password matches, let the user in. IF the password does not match,return"incorrect password.
+
+# IF password matches-let them in
+# Else it does not match-do not let them in 
+# keyword in question are=sting,parameter,function
+
+user_password ='zionWashington'
+
+def login_password(user_password):
+user_password=input('please enter a password')
+   if  user_password== 'zionWashington':
+else:
+     print('sorry,incorrect password.')
+
+login_password('zionWashington)
