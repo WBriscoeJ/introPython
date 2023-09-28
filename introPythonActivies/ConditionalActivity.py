@@ -10,8 +10,13 @@
 "executes a block of code if a specified condition is true."
 
 # 3. write a simple conditional state using a comparision operator(greater than, less than, etc. 
-The operators `>`, `<`, `>=`, `<=` compare the order of values.
-They determine if a value or greater than or less than another value.
+in_game_money=300.00
+weapon_in_game=200.00
+
+if in_game_money>weapon_in_game:
+    print('you have the weapons,congrates.')
+else:
+     print('sorry,insufficient funds.')
 
 # 4. Write a conditional statement for food in the refridgerator.
 # your conditional statement should be wrapped in a function that takes one (1)
@@ -27,13 +32,22 @@ They determine if a value or greater than or less than another value.
 # Else no_food_in_refridgerator=False
 
 def put_food_in_refridgerator(food_in_refridgerator):
-    food_in_fridg=input('pleas enter type of foods')
-        if food_in_fridg:foods_in_refridgerator=='Ham burger,fruit,and water'   
- else:noFoodsInRefridgerator==empty refridgerator.
-
+    food_in_fridg==True:
+      print('time to cook')
+    else
+     print('time to shop')
+put_food_in_refridgerator(True)
 
 # 5. Create a function that checks the inventory of cereal for a store. 
 # your function should have a parameter that accepts an integer. In your function
 # use a conditional statement to determine if you need to order more cereal.
 # If there is more than 10 boxes, print "inventory full", else if there are less than 
 # 10 boxes print "we need to order more cereal".
+def cereal_inventory(cereal):
+   current_cereal_inventory=10
+   if ceral >= current_cereal_inventory:
+      print("Inventory is full")
+   else :
+      print("need to order more cereal.")
+
+cereal_inventory(12)
