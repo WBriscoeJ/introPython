@@ -12,7 +12,7 @@ linkTwo= 'https://afternerd.com/blog/python-lists-for-absolute-beginners/'
 # data type they will be. 
 # Some examples: favorite_atheletes, favorite_games, favorite_books, etc.  
 
-favorite_games=['fortnite','warzone','motalcombat']
+favorite_games=['fortnite','warzone','motalkombat']
 
 # 2. Find and print the specific item in each list based on their index in the list
 # HINT you will need to use a python built-in function that specifically lets you find items in a 
@@ -37,10 +37,10 @@ print(random_numbers[0])
 
 number_list= [1,2,3,4,5,6,7,8,9,10]
 
-for x in range(1,3,5,7,9):
-    'if'  'x'== 1 > more
-    'else' 'x dont equal anything'
-    print(x)
+x= range(1,10,2)
+
+for n in x:
+      print(n)
 
 # 4. You have been hired by amazon to be an engineer. Your first assignment is to fix their
 # shopping cart function. Your goal is to create a line of code that will
@@ -51,5 +51,27 @@ for x in range(1,3,5,7,9):
 # HINT - for this function you will need to use the append() function. 
 
 shopping_cart = ['notebook', 'pens','tape','mousepad']
+
+def amazone_Cart(): 
+    What_else = input('what else would you like to add to your shopping carts ')
+    shopping_cart.append(what_else)
+    print( shopping_cart)
+
+#amazon_Cart()
+
+list_of_items=['apple, orange, book']
+                 
+apple_price=1.00
+orange_price=3.00
+book_price=10.00
+
+def shop_rite():
+    what_else = input('what else do you want to add to your cart')
+    list_of_items.append(what_else)
+    how_many= input('how much does you item cost? ')
+    print(list_of_items)
+    print(apple_price + orange_price + book_price + float(how_much))
+
+shop_rite()
 
 
