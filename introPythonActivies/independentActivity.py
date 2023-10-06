@@ -74,4 +74,21 @@ def shop_rite():
 
 shop_rite()
 
+# Create a function that will multiply each value in the list by 3.
+
+ what I know is i am multipling in this situation
+
+
+list_number=[1,2,3,4,5,6]
+
+def multiplier():
+  list_number=[1,2,3,4,5,6]
+ for n in list_numbers:
+      print(n*3)
+
+multiplier()
+
+
+def user_type():
+    print(what is your data type)
 
