@@ -15,19 +15,17 @@ def multiplier():
 for n in list_number:
    print(n*2)
 
-multiplier()
+#multiplier()
 
 # 2. Creat a function that will do the following calculation. Your function should take in three argument. it should add the first
 # two arguments and then the sum of the first two (2) should be divided by the third argument. 
 # You function should then print the result. 
 
-four=4
-four2=4
-eight=8
-def following_calculation():
-math = four + four2
+def calculated(num1,num2,num3):
+   answer= num1 + num2
+   print(int(answer/num3))
 
-print(int(math/eight))
+#calculate(2,8,2)
 
 # 3. Create a elevator function that will run specific lines of code based on the conditions provided by a user.
 the user types in 101,atin office, if they type in 203, they are going to the gym, # the function should print out they are going to the boys lrovided by a user. If 
@@ -36,30 +34,32 @@ the user types in 101,atin office, if they type in 203, they are going to the gy
 
 [elevator function,print,If/Else vaules and input.]
 
-def elevator:
-    wet_floor = int(input('what floor would  u like to go too'))
+def elevator():
+    elevator_floor=input('what floor do you want to go to')
+    if elevator_floor== 203:
+       print('you are going to the gym')
 
-If str(wet_floor) == 101:
-   print("you are going to the boys latin office")
+    elif elevator_floor==g:
+       print('you are going to the lobby')
 
-else wet_floor= 203
-     print(you are going to the lunch room)
-  else
-       print('That floor dont exist please enter a valid dloor number.')
+    elif elevator_floor==101:
+       print('you are going to boys latin.')
+    else:
+       print('your floor doesnt exist please enter a value.')
+
 elevator()
    
 
 # hint you will need to look into using conditional statements
 
 # 4.Write a simple conditional statement that uses a boolean that will print if it is daytime or nighttime.
-a = 100
-b = 43
 
-if b > a:
-  print("b is greater than a")
+sunIsOut= False
+
+if sunIsOut == True:
+   print('it is day time')
 else:
-  print("b is not greater than a")
-
+    print('it is night time')
 
 # 5. What function would you use if you wanted to add and element/ value to a list data type? Explain why you would us this.
 # I would use append.Append() will place new items in the available space.Also
@@ -77,8 +77,8 @@ print(random_number_list)
 # then print the largest number
 ranom_number_list2 = [100,230,40,39403,19]
 
-x = nex[random_number_list2]
- print(x)
+largest_number=max[random_number_list2]
+ print(largest_largest)
 
 # 8. A security company has hired you as an engineer to help them develop a program that will only let users into the building 
 # if they enter a specific password. They given you the following information to use to build this program.
@@ -87,6 +87,23 @@ x = nex[random_number_list2]
 # - if they get this correct, they then want them to enter another value, which is 3039
 # - if this is correct they will get access to the building
 # - if they have the wrong answer in either scenario they will get a message saying access denied. 
+
+def building_Code():
+    code =int(input('what is the code to enter the building'))
+    if code == 1920:
+       print('great! please enter 2nd code:')
+       code2= int(input('what is the 2nd code'))
+       if code2== 3039:
+       print('you may now enter the bulding!')
+
+     else:
+       print('second attempt is not correct!')
+
+    else:
+       print('first attempt is not correct!')
+
+building_code()
+
 
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
