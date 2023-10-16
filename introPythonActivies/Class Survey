@@ -1,0 +1,20 @@
+# while loop
+i = 1 # iterator 
+while i < 6: # condition/ scenrio we want to check for 
+   print(i) # instruction on what to do next 
+   i +=1 # increment - the number of time we want to do it.
+
+
+
+# conditional statment
+user_password_attempt=input('please enter a password')
+actual_password='blch
+
+if user_password_attempt == actual_password:
+  #print('password is correct.please enter.)
+  break
+else:
+  print('invalid password,try again.)
+  i+= 1
+
+password_code()
