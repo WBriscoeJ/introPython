@@ -1,0 +1,13 @@
+languages = ['Swift', 'Python', 'Go', 'JavaScript']
+
+# run a loop for each item of the list
+for language in languages:
+    print(language)
+
+i=0
+
+while i <= 4:
+     print(i)
+     print(i==i)
+     i+=
+     
