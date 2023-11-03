@@ -1,0 +1,8 @@
+def password_code():
+    user_password_attempt= input('please enter a password:')
+    actual_passwords='blch'
+
+    if user_password_attempt == actual_password:
+        print('password is correct.please enter.')
+    else:
+        print('invalid password,try again.')
