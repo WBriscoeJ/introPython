@@ -1,9 +1,9 @@
 
 import random
 
-a = 6
+a = 1
 
-while a == 6:
+while a == 1:
 
     number= random.randint(1,6)
 
@@ -49,7 +49,7 @@ while a == 6:
         print("[0 0 0]")
         print("[-----]")    
 
-    a= input(" press space bar to continue")
+    a= input(" press space bar twice to continue")
 
     print('random number')
 
