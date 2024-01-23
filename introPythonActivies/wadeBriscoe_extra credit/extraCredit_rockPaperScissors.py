@@ -14,6 +14,7 @@ def makeYourChoice():
     if userChoice == "s":
         return "Scissors"
     if userChoice == "q":
+        
         sys.exit (0)
     else:
         makeYourChoice()
